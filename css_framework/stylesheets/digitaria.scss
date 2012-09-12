@@ -1,2 +1,62 @@
-// this loads all the partials for the Digitaria css framework
-@import "digitaria/layouts";
+//----------------------------
+// imports
+//----------------------------
+@import "digitaria/base";
+
+$color: lighten(blue, 10%);
+
+* {
+  @include box-sizing(border-box);
+}
+body {
+  @include type-body;
+}
+
+@include type-headings;
+@include responsive-utilities;
+
+p, blockquote, pre {
+  margin: ms(0) 0;
+}
+
+blockquote, pre {
+  padding: 0 20px;
+}
+
+pre, code {
+  @include type-mono;
+}
+
+img, object, embed {
+  @include responsive-images;
+}
+
+a {
+  color: $color;
+  text-decoration: none;
+  &.active {
+    border-bottom: 5px solid $color;
+  }
+}
+
+.container {
+  @include grid-container;
+  .gr {
+    @include grid-row;
+    @include grid-columns(gc-);
+    @include grid-column-offsets(gc-off-);
+    .off-screen {
+      @include off-screen;
+    }
+    .gc-info {
+      background: $color;
+      color: white;
+      padding: 2px 5px;
+      position: absolute;
+      right: 5px;
+      top: 5px;
+
+      @include border-radius(6px);
+    }
+  }
+}

@@ -1,0 +1,143 @@
+//----------------------------
+// imports
+//----------------------------
+@import "compass/utilities/general/clearfix";
+@import "digitaria/responsive";
+
+//----------------------------
+// variables
+//----------------------------
+$grid-column-width: 60px !default;
+$grid-gutter-width: 20px !default;
+$grid-row-spacing: 10px !default;
+$grid-total-columns: 12 !default;
+$grid-column-selector: grid-column- !default;
+$grid-column-offset-selector: grid-column-offset- !default;
+
+//----------------------------
+// mixins
+//----------------------------
+@mixin grid-container {
+  $media-current: $media-normal;
+  margin: 0 auto;
+  width: getGridContainerWidth();
+  @include pie-clearfix;
+  @include media-small {
+    padding: 0 20px;
+    width: auto;
+  }
+  @include media-medium {
+    width: getGridContainerWidth();
+  }
+  @include media-large {
+    width: getGridContainerWidth();
+  }
+}
+
+@mixin grid-row {
+  $media-current: $media-normal;
+  margin-bottom: $grid-row-spacing;
+  margin-left: - getGridGutterWidth();
+  @include pie-clearfix;
+  @include media-small {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+  @include media-medium {
+    margin-left: - getGridGutterWidth();
+  }
+  @include media-large {
+    margin-left: - getGridGutterWidth();
+  }
+}
+
+@mixin grid-column($id) {
+  $media-current: $media-normal;
+  float: left;
+  margin-left: getGridGutterWidth();
+  position: relative;
+  width: getGridColumnWidthById($id);
+
+  @include media-small {
+    float: none;
+    margin-bottom: 10px;
+    margin-left: 0;
+    @if $id == $grid-total-columns {
+      width: 100%;
+    } @else {
+      width: auto;
+    }
+  }
+  @include media-medium {
+    margin-left: getGridGutterWidth();
+    width: getGridColumnWidthById($id);
+  }
+  @include media-large {
+    margin-left: getGridGutterWidth();
+    width: getGridColumnWidthById($id);
+  }
+  &.fill {
+    background-color: #ffffff;
+    border: 1px solid;
+    padding: 10px 10px 100px;
+  }
+}
+@mixin grid-columns($selector:$grid-column-selector) {
+  @for $i from 1 through $grid-total-columns {
+    .#{$selector}#{$i} {
+      @include grid-column($i);
+    }
+  }
+}
+
+@mixin grid-column-offset($id) {
+  $media-current: $media-normal;
+  margin-left: getGridOffsetWidthById($id);
+  @include media-small {
+    margin-left: 0;
+  }
+  @include media-medium {
+    margin-left: getGridOffsetWidthById($id);
+  }
+  @include media-large {
+    margin-left: getGridOffsetWidthById($id);
+  }
+}
+@mixin grid-column-offsets($selector) {
+  @for $i from 1 through $grid-total-columns - 1 {
+    .#{$selector}#{$i} {
+      @include grid-column-offset($i);
+    }
+  }
+}
+
+//----------------------------
+// functions
+//----------------------------
+@function getGridContainerWidth() {
+  @return (getGridColumnWidth() * $grid-total-columns) + (getGridGutterWidth() * ($grid-total-columns - 1));
+}
+
+@function getGridColumnWidth() {
+  @if $is-responsive {
+    @if $media-current == $media-medium { @return $grid-column-width - 5; }
+    @if $media-current == $media-large { @return $grid-column-width + 20; }
+  }
+  @return $grid-column-width;
+}
+
+@function getGridGutterWidth() {
+  @if $is-responsive {
+    @if $media-current == $media-medium { @return 10px; }
+    @if $media-current == $media-large { @return 20px; }
+  }
+  @return $grid-gutter-width;
+}
+
+@function getGridColumnWidthById($id) {
+  @return ($id * getGridColumnWidth()) + (getGridGutterWidth() * ($id - 1));
+}
+
+@function getGridOffsetWidthById($id) {
+  @return ($id * getGridColumnWidth()) + (getGridGutterWidth() * ($id + 1));
+}
