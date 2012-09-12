@@ -59,7 +59,6 @@ $media-current: $media-normal;
       @include transition-timing-function(ease-out);
       &.on-screen {
         left: 0;
-
         .button-close {
           display: block;
         }
@@ -72,8 +71,8 @@ $media-current: $media-normal;
       height: 40px;
       padding: 10px;
       position: absolute;
-      right: -40px;
-      top: 10px;
+      right: 0;
+      top: 0;
     }
   }
 }
