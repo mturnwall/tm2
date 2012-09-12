@@ -59,20 +59,15 @@ $media-current: $media-normal;
       @include transition-timing-function(ease-out);
       &.on-screen {
         left: 0;
-        .button-close {
-          display: block;
-        }
       }
     }
     .button-close {
-      background-color: #ffffff;
-      border: 1px solid;
-      display: none;
-      height: 40px;
-      padding: 10px;
+      background-color: lighten(red, 10%);
+      padding: 2px 5px;
       position: absolute;
-      right: 0;
-      top: 0;
+      right: 5px;
+      top: 5px;
+      @include border-radius(6px);
     }
   }
 }
