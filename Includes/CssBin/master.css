@@ -206,54 +206,54 @@ h6 {
 }
 
 @media (max-width: 769px) {
-  /* line 83, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
+  /* line 88, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
   .hide-small {
     display: none;
   }
 }
 
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 88, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
+  /* line 93, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
   .hide-medium {
     display: none;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 93, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
+  /* line 98, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
   .hide-large {
     display: none;
   }
 }
 
-/* line 99, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
+/* line 104, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
 .show-small {
   display: none;
 }
 @media (max-width: 769px) {
-  /* line 99, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
+  /* line 104, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
   .show-small {
     display: block;
   }
 }
 
-/* line 105, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
+/* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
 .show-medium {
   display: none;
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 105, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
   .show-medium {
     display: block;
   }
 }
 
-/* line 111, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
+/* line 116, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
 .show-large {
   display: none;
 }
 @media (min-width: 1200px) {
-  /* line 111, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
+  /* line 116, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
   .show-large {
     display: block;
   }
@@ -1062,6 +1062,7 @@ a.active {
 /* line 64, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
 .container .gr .off-screen .button-close {
   background-color: #ff3333;
+  color: #ffffff;
   padding: 2px 5px;
   position: absolute;
   right: 5px;
@@ -1071,6 +1072,10 @@ a.active {
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
   border-radius: 6px;
+}
+/* line 73, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
+.container .gr .off-screen .button-close a {
+  color: #ffffff;
 }
 /* line 49, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria.scss */
 .container .gr .gc-info {
