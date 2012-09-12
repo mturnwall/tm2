@@ -60,7 +60,7 @@ $grid-column-offset-selector: grid-column-offset- !default;
 
   @include media-small {
     float: none;
-    margin-bottom: 10px;
+    margin-bottom: $grid-row-spacing;
     margin-left: 0;
     @if $id == $grid-total-columns {
       width: 100%;
