@@ -1,0 +1,47 @@
+//----------------------------
+// imports
+//----------------------------
+@import 'modular-scale';
+
+//----------------------------
+// variables
+//----------------------------
+$font-family-mono: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace !default;
+$font-family-sans: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !default;
+$font-family-serif: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif !default;
+$font-family-body: $font-family-sans !default;
+$font-family-heading: $font-family-sans !default;
+$font-size-base: 15px !default;
+$total-headings: 6 !default;
+
+$ratio: fourth();
+$base-size: $font-size-base;
+$round_pixels: true;
+
+//----------------------------
+// mixins
+//----------------------------
+@mixin type($font-family, $scale:0, $weight:400) {
+  font-family: $font-family;
+  font-size: ms($scale);
+  font-style: normal;
+  font-weight: $weight;
+  line-height: round(ms($scale) * $ratio);
+  text-rendering: optimizeLegibility;
+}
+
+@mixin type-body($ff:$font-family-body, $w:400) {
+  @include type($ff, 0, $w);
+}
+
+@mixin type-headings($ff:$font-family-heading, $w:600) {
+  @for $i from 1 through $total-headings {
+    h#{$i} {
+      @include type($ff, $total-headings - $i, $w);
+    }
+  }
+}
+
+@mixin type-mono {
+  @include type($font-family-mono);
+}
