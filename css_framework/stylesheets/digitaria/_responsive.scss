@@ -1,0 +1,106 @@
+//----------------------------
+// variables
+//----------------------------
+$is-responsive: true !default;
+$has-small: true !default;
+$has-medium: true !default;
+$has-large: true !default;
+$media-small: 768px !default;
+$media-medium: 979px !default;
+$media-normal: 0px;
+$media-large: 1200px !default;
+$media-current: $media-normal;
+
+//----------------------------
+// mixins - media queries
+//----------------------------
+@mixin media-small {
+  @if $is-responsive and $has-small {
+    @media (max-width: $media-small) {
+      $media-current: $media-small;
+      @content;
+    }
+  }
+}
+
+@mixin media-medium {
+  @if $is-responsive and $has-medium {
+    @media (min-width: $media-small) and (max-width: $media-medium) {
+      $media-current: $media-medium;
+      @content;
+    }
+  }
+}
+
+@mixin media-large {
+  @if $is-responsive and $has-large {
+    @media (min-width: $media-large) {
+      $media-current: $media-large;
+      @content;
+    }
+  }
+}
+
+//----------------------------
+// mixins
+//----------------------------
+@mixin off-screen {
+  @include media-small {
+    height: 100%;
+    left: -100%;
+    position: absolute;
+    width: 90%;
+    z-index: 10000;
+
+    @include transition-property(left);
+    @include transition-duration(0.5s);
+    @include transition-timing-function(ease-out);
+    &.on-screen {
+      left: 0;
+    }
+  }
+}
+
+@mixin responsive-images {
+  @if $is-responsive {
+    height: auto;
+    max-width: 100%;
+  }
+}
+
+@mixin responsive-utilities {
+  .hide-small {
+    @include media-small {
+      display: none;
+    }
+  }
+  .hide-medium {
+    @include media-medium {
+      display: none;
+    }
+  }
+  .hide-large {
+    @include media-large {
+      display: none;
+    }
+  }
+
+  .show-small {
+    display: none;
+    @include media-small {
+      display: block;
+    }
+  }
+  .show-medium {
+    display: none;
+    @include media-medium {
+      display: block;
+    }
+  }
+  .show-large {
+    display: none;
+    @include media-large {
+      display: block;
+    }
+  }
+}
