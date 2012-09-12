@@ -65,9 +65,12 @@ $media-current: $media-normal;
       }
     }
     .button-close {
-      background-color: white;
+      background-color: #ffffff;
+      border: 1px solid;
       display: none;
       height: 40px;
+      overflow: scroll;
+      padding: 10px;
       position: absolute;
       right: -40px;
       top: 10px;
