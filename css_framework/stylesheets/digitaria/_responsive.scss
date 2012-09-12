@@ -45,18 +45,32 @@ $media-current: $media-normal;
 // mixins
 //----------------------------
 @mixin off-screen {
-  @include media-small {
-    height: 100%;
-    left: -100%;
-    position: absolute;
-    width: 90%;
-    z-index: 10000;
+  .off-screen {
+    @include media-small {
+      height: 100%;
+      left: -100%;
+      position: absolute;
+      top: 0;
+      width: 90%;
+      z-index: 10000;
+      @include transition-property(left);
+      @include transition-duration(0.5s);
+      @include transition-timing-function(ease-out);
+      &.on-screen {
+        left: 0;
 
-    @include transition-property(left);
-    @include transition-duration(0.5s);
-    @include transition-timing-function(ease-out);
-    &.on-screen {
-      left: 0;
+        .button-close {
+          display: block;
+        }
+      }
+    }
+    .button-close {
+      display: none;
+      height: 40px;
+      position: absolute;
+      right: -40px;
+      top: 10px;
+      width: 40px;
     }
   }
 }

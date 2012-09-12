@@ -206,54 +206,54 @@ h6 {
 }
 
 @media (max-width: 769px) {
-  /* line 72, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
+  /* line 86, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
   .hide-small {
     display: none;
   }
 }
 
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 77, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
+  /* line 91, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
   .hide-medium {
     display: none;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 82, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
+  /* line 96, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
   .hide-large {
     display: none;
   }
 }
 
-/* line 88, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
+/* line 102, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
 .show-small {
   display: none;
 }
 @media (max-width: 769px) {
-  /* line 88, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
+  /* line 102, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
   .show-small {
     display: block;
   }
 }
 
-/* line 94, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
+/* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
 .show-medium {
   display: none;
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 94, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
+  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
   .show-medium {
     display: block;
   }
 }
 
-/* line 100, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
+/* line 114, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
 .show-large {
   display: none;
 }
 @media (min-width: 1200px) {
-  /* line 100, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
+  /* line 114, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
   .show-large {
     display: block;
   }
@@ -1032,11 +1032,12 @@ a.active {
   }
 }
 @media (max-width: 769px) {
-  /* line 48, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria.scss */
+  /* line 48, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
   .container .gr .off-screen {
     height: 100%;
     left: -100%;
     position: absolute;
+    top: 0;
     width: 90%;
     z-index: 10000;
     -webkit-transition-property: left;
@@ -1052,12 +1053,25 @@ a.active {
     -o-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
   }
-  /* line 58, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
+  /* line 59, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
   .container .gr .off-screen.on-screen {
     left: 0;
   }
+  /* line 62, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
+  .container .gr .off-screen.on-screen .button-close {
+    display: block;
+  }
 }
-/* line 51, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria.scss */
+/* line 67, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_responsive.scss */
+.container .gr .off-screen .button-close {
+  display: none;
+  height: 40px;
+  position: absolute;
+  right: -40px;
+  top: 10px;
+  width: 40px;
+}
+/* line 49, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria.scss */
 .container .gr .gc-info {
   background: #3333ff;
   color: white;

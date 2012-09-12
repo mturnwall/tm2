@@ -45,9 +45,7 @@ a {
     @include grid-row;
     @include grid-columns(gc-);
     @include grid-column-offsets(gc-off-);
-    .off-screen {
-      @include off-screen;
-    }
+    @include off-screen;
     .gc-info {
       background: $color;
       color: white;
