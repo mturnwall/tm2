@@ -15,6 +15,8 @@ $grid-total-columns: 12 !default;
 $grid-column-selector: grid-column- !default;
 $grid-column-offset-selector: grid-column-offset- !default;
 
+$grid-background-column-color: #eeeeee;
+
 //----------------------------
 // mixins
 //----------------------------
@@ -27,12 +29,15 @@ $grid-column-offset-selector: grid-column-offset- !default;
   @include media-small {
     padding: 0 20px;
     width: auto;
+    @include column-grid-background($grid-total-columns, $grid-column-width, $grid-gutter-width);
   }
   @include media-medium {
     width: getGridContainerWidth();
+    @include column-grid-background($grid-total-columns, $grid-column-width, $grid-gutter-width);
   }
   @include media-large {
     width: getGridContainerWidth();
+    @include column-grid-background($grid-total-columns, $grid-column-width, $grid-gutter-width);
   }
 }
 
