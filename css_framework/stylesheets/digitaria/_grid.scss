@@ -22,7 +22,7 @@ $grid-column-offset-selector: grid-column-offset- !default;
   $media-current: $media-normal;
   margin: 0 auto;
   width: getGridContainerWidth();
-  @include build-grid-background($grid-total-columns, $grid-column-width, $grid-gutter-width);
+  @include column-grid-background($grid-total-columns, $grid-column-width, $grid-gutter-width);
   @include pie-clearfix;
   @include media-small {
     padding: 0 20px;

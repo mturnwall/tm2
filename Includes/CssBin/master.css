@@ -299,6 +299,12 @@ a.active {
 .container {
   margin: 0 auto;
   width: 940px;
+  background-image: -webkit-gradient(linear, 0% 50%, 960 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(6.25%, rgba(100, 100, 225, 0.25)), color-stop(6.25%, rgba(0, 0, 0, 0)), color-stop(8.33333%, rgba(0, 0, 0, 0)), color-stop(8.33333%, rgba(100, 100, 225, 0.25)), color-stop(14.58333%, rgba(100, 100, 225, 0.25)), color-stop(14.58333%, rgba(0, 0, 0, 0)), color-stop(16.66667%, rgba(0, 0, 0, 0)), color-stop(16.66667%, rgba(100, 100, 225, 0.25)), color-stop(22.91667%, rgba(100, 100, 225, 0.25)), color-stop(22.91667%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(100, 100, 225, 0.25)), color-stop(31.25%, rgba(100, 100, 225, 0.25)), color-stop(31.25%, rgba(0, 0, 0, 0)), color-stop(33.33333%, rgba(0, 0, 0, 0)), color-stop(33.33333%, rgba(100, 100, 225, 0.25)), color-stop(39.58333%, rgba(100, 100, 225, 0.25)), color-stop(39.58333%, rgba(0, 0, 0, 0)), color-stop(41.66667%, rgba(0, 0, 0, 0)), color-stop(41.66667%, rgba(100, 100, 225, 0.25)), color-stop(47.91667%, rgba(100, 100, 225, 0.25)), color-stop(47.91667%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(100, 100, 225, 0.25)), color-stop(56.25%, rgba(100, 100, 225, 0.25)), color-stop(56.25%, rgba(0, 0, 0, 0)), color-stop(58.33333%, rgba(0, 0, 0, 0)), color-stop(58.33333%, rgba(100, 100, 225, 0.25)), color-stop(64.58333%, rgba(100, 100, 225, 0.25)), color-stop(64.58333%, rgba(0, 0, 0, 0)), color-stop(66.66667%, rgba(0, 0, 0, 0)), color-stop(66.66667%, rgba(100, 100, 225, 0.25)), color-stop(72.91667%, rgba(100, 100, 225, 0.25)), color-stop(72.91667%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(100, 100, 225, 0.25)), color-stop(81.25%, rgba(100, 100, 225, 0.25)), color-stop(81.25%, rgba(0, 0, 0, 0)), color-stop(83.33333%, rgba(0, 0, 0, 0)), color-stop(83.33333%, rgba(100, 100, 225, 0.25)), color-stop(89.58333%, rgba(100, 100, 225, 0.25)), color-stop(89.58333%, rgba(0, 0, 0, 0)), color-stop(91.66667%, rgba(0, 0, 0, 0)), color-stop(91.66667%, rgba(100, 100, 225, 0.25)), color-stop(97.91667%, rgba(100, 100, 225, 0.25)), color-stop(97.91667%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 60px, rgba(0, 0, 0, 0) 60px, rgba(0, 0, 0, 0) 80px, rgba(100, 100, 225, 0.25) 80px, rgba(100, 100, 225, 0.25) 140px, rgba(0, 0, 0, 0) 140px, rgba(0, 0, 0, 0) 160px, rgba(100, 100, 225, 0.25) 160px, rgba(100, 100, 225, 0.25) 220px, rgba(0, 0, 0, 0) 220px, rgba(0, 0, 0, 0) 240px, rgba(100, 100, 225, 0.25) 240px, rgba(100, 100, 225, 0.25) 300px, rgba(0, 0, 0, 0) 300px, rgba(0, 0, 0, 0) 320px, rgba(100, 100, 225, 0.25) 320px, rgba(100, 100, 225, 0.25) 380px, rgba(0, 0, 0, 0) 380px, rgba(0, 0, 0, 0) 400px, rgba(100, 100, 225, 0.25) 400px, rgba(100, 100, 225, 0.25) 460px, rgba(0, 0, 0, 0) 460px, rgba(0, 0, 0, 0) 480px, rgba(100, 100, 225, 0.25) 480px, rgba(100, 100, 225, 0.25) 540px, rgba(0, 0, 0, 0) 540px, rgba(0, 0, 0, 0) 560px, rgba(100, 100, 225, 0.25) 560px, rgba(100, 100, 225, 0.25) 620px, rgba(0, 0, 0, 0) 620px, rgba(0, 0, 0, 0) 640px, rgba(100, 100, 225, 0.25) 640px, rgba(100, 100, 225, 0.25) 700px, rgba(0, 0, 0, 0) 700px, rgba(0, 0, 0, 0) 720px, rgba(100, 100, 225, 0.25) 720px, rgba(100, 100, 225, 0.25) 780px, rgba(0, 0, 0, 0) 780px, rgba(0, 0, 0, 0) 800px, rgba(100, 100, 225, 0.25) 800px, rgba(100, 100, 225, 0.25) 860px, rgba(0, 0, 0, 0) 860px, rgba(0, 0, 0, 0) 880px, rgba(100, 100, 225, 0.25) 880px, rgba(100, 100, 225, 0.25) 940px, rgba(0, 0, 0, 0) 940px, rgba(0, 0, 0, 0) 960px);
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 60px, rgba(0, 0, 0, 0) 60px, rgba(0, 0, 0, 0) 80px, rgba(100, 100, 225, 0.25) 80px, rgba(100, 100, 225, 0.25) 140px, rgba(0, 0, 0, 0) 140px, rgba(0, 0, 0, 0) 160px, rgba(100, 100, 225, 0.25) 160px, rgba(100, 100, 225, 0.25) 220px, rgba(0, 0, 0, 0) 220px, rgba(0, 0, 0, 0) 240px, rgba(100, 100, 225, 0.25) 240px, rgba(100, 100, 225, 0.25) 300px, rgba(0, 0, 0, 0) 300px, rgba(0, 0, 0, 0) 320px, rgba(100, 100, 225, 0.25) 320px, rgba(100, 100, 225, 0.25) 380px, rgba(0, 0, 0, 0) 380px, rgba(0, 0, 0, 0) 400px, rgba(100, 100, 225, 0.25) 400px, rgba(100, 100, 225, 0.25) 460px, rgba(0, 0, 0, 0) 460px, rgba(0, 0, 0, 0) 480px, rgba(100, 100, 225, 0.25) 480px, rgba(100, 100, 225, 0.25) 540px, rgba(0, 0, 0, 0) 540px, rgba(0, 0, 0, 0) 560px, rgba(100, 100, 225, 0.25) 560px, rgba(100, 100, 225, 0.25) 620px, rgba(0, 0, 0, 0) 620px, rgba(0, 0, 0, 0) 640px, rgba(100, 100, 225, 0.25) 640px, rgba(100, 100, 225, 0.25) 700px, rgba(0, 0, 0, 0) 700px, rgba(0, 0, 0, 0) 720px, rgba(100, 100, 225, 0.25) 720px, rgba(100, 100, 225, 0.25) 780px, rgba(0, 0, 0, 0) 780px, rgba(0, 0, 0, 0) 800px, rgba(100, 100, 225, 0.25) 800px, rgba(100, 100, 225, 0.25) 860px, rgba(0, 0, 0, 0) 860px, rgba(0, 0, 0, 0) 880px, rgba(100, 100, 225, 0.25) 880px, rgba(100, 100, 225, 0.25) 940px, rgba(0, 0, 0, 0) 940px, rgba(0, 0, 0, 0) 960px);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 60px, rgba(0, 0, 0, 0) 60px, rgba(0, 0, 0, 0) 80px, rgba(100, 100, 225, 0.25) 80px, rgba(100, 100, 225, 0.25) 140px, rgba(0, 0, 0, 0) 140px, rgba(0, 0, 0, 0) 160px, rgba(100, 100, 225, 0.25) 160px, rgba(100, 100, 225, 0.25) 220px, rgba(0, 0, 0, 0) 220px, rgba(0, 0, 0, 0) 240px, rgba(100, 100, 225, 0.25) 240px, rgba(100, 100, 225, 0.25) 300px, rgba(0, 0, 0, 0) 300px, rgba(0, 0, 0, 0) 320px, rgba(100, 100, 225, 0.25) 320px, rgba(100, 100, 225, 0.25) 380px, rgba(0, 0, 0, 0) 380px, rgba(0, 0, 0, 0) 400px, rgba(100, 100, 225, 0.25) 400px, rgba(100, 100, 225, 0.25) 460px, rgba(0, 0, 0, 0) 460px, rgba(0, 0, 0, 0) 480px, rgba(100, 100, 225, 0.25) 480px, rgba(100, 100, 225, 0.25) 540px, rgba(0, 0, 0, 0) 540px, rgba(0, 0, 0, 0) 560px, rgba(100, 100, 225, 0.25) 560px, rgba(100, 100, 225, 0.25) 620px, rgba(0, 0, 0, 0) 620px, rgba(0, 0, 0, 0) 640px, rgba(100, 100, 225, 0.25) 640px, rgba(100, 100, 225, 0.25) 700px, rgba(0, 0, 0, 0) 700px, rgba(0, 0, 0, 0) 720px, rgba(100, 100, 225, 0.25) 720px, rgba(100, 100, 225, 0.25) 780px, rgba(0, 0, 0, 0) 780px, rgba(0, 0, 0, 0) 800px, rgba(100, 100, 225, 0.25) 800px, rgba(100, 100, 225, 0.25) 860px, rgba(0, 0, 0, 0) 860px, rgba(0, 0, 0, 0) 880px, rgba(100, 100, 225, 0.25) 880px, rgba(100, 100, 225, 0.25) 940px, rgba(0, 0, 0, 0) 940px, rgba(0, 0, 0, 0) 960px);
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 60px, rgba(0, 0, 0, 0) 60px, rgba(0, 0, 0, 0) 80px, rgba(100, 100, 225, 0.25) 80px, rgba(100, 100, 225, 0.25) 140px, rgba(0, 0, 0, 0) 140px, rgba(0, 0, 0, 0) 160px, rgba(100, 100, 225, 0.25) 160px, rgba(100, 100, 225, 0.25) 220px, rgba(0, 0, 0, 0) 220px, rgba(0, 0, 0, 0) 240px, rgba(100, 100, 225, 0.25) 240px, rgba(100, 100, 225, 0.25) 300px, rgba(0, 0, 0, 0) 300px, rgba(0, 0, 0, 0) 320px, rgba(100, 100, 225, 0.25) 320px, rgba(100, 100, 225, 0.25) 380px, rgba(0, 0, 0, 0) 380px, rgba(0, 0, 0, 0) 400px, rgba(100, 100, 225, 0.25) 400px, rgba(100, 100, 225, 0.25) 460px, rgba(0, 0, 0, 0) 460px, rgba(0, 0, 0, 0) 480px, rgba(100, 100, 225, 0.25) 480px, rgba(100, 100, 225, 0.25) 540px, rgba(0, 0, 0, 0) 540px, rgba(0, 0, 0, 0) 560px, rgba(100, 100, 225, 0.25) 560px, rgba(100, 100, 225, 0.25) 620px, rgba(0, 0, 0, 0) 620px, rgba(0, 0, 0, 0) 640px, rgba(100, 100, 225, 0.25) 640px, rgba(100, 100, 225, 0.25) 700px, rgba(0, 0, 0, 0) 700px, rgba(0, 0, 0, 0) 720px, rgba(100, 100, 225, 0.25) 720px, rgba(100, 100, 225, 0.25) 780px, rgba(0, 0, 0, 0) 780px, rgba(0, 0, 0, 0) 800px, rgba(100, 100, 225, 0.25) 800px, rgba(100, 100, 225, 0.25) 860px, rgba(0, 0, 0, 0) 860px, rgba(0, 0, 0, 0) 880px, rgba(100, 100, 225, 0.25) 880px, rgba(100, 100, 225, 0.25) 940px, rgba(0, 0, 0, 0) 940px, rgba(0, 0, 0, 0) 960px);
+  background-position: left top;
   *zoom: 1;
 }
 /* line 38, /Users/dpett/.rvm/gems/ruby-1.9.3-p194@global/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
@@ -357,7 +363,7 @@ a.active {
     margin-left: -20px;
   }
 }
-/* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-1 {
   float: left;
   margin-left: 20px;
@@ -365,7 +371,7 @@ a.active {
   width: 60px;
 }
 @media (max-width: 769px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-1 {
     float: none;
     margin-bottom: 10px;
@@ -374,26 +380,26 @@ a.active {
   }
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-1 {
     margin-left: 10px;
     width: 55px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-1 {
     margin-left: 20px;
     width: 80px;
   }
 }
-/* line 79, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 81, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-1.fill {
   background-color: #ffffff;
   border: 1px solid;
   padding: 10px 10px 100px;
 }
-/* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-2 {
   float: left;
   margin-left: 20px;
@@ -401,7 +407,7 @@ a.active {
   width: 140px;
 }
 @media (max-width: 769px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-2 {
     float: none;
     margin-bottom: 10px;
@@ -410,26 +416,26 @@ a.active {
   }
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-2 {
     margin-left: 10px;
     width: 120px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-2 {
     margin-left: 20px;
     width: 180px;
   }
 }
-/* line 79, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 81, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-2.fill {
   background-color: #ffffff;
   border: 1px solid;
   padding: 10px 10px 100px;
 }
-/* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-3 {
   float: left;
   margin-left: 20px;
@@ -437,7 +443,7 @@ a.active {
   width: 220px;
 }
 @media (max-width: 769px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-3 {
     float: none;
     margin-bottom: 10px;
@@ -446,26 +452,26 @@ a.active {
   }
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-3 {
     margin-left: 10px;
     width: 185px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-3 {
     margin-left: 20px;
     width: 280px;
   }
 }
-/* line 79, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 81, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-3.fill {
   background-color: #ffffff;
   border: 1px solid;
   padding: 10px 10px 100px;
 }
-/* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-4 {
   float: left;
   margin-left: 20px;
@@ -473,7 +479,7 @@ a.active {
   width: 300px;
 }
 @media (max-width: 769px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-4 {
     float: none;
     margin-bottom: 10px;
@@ -482,26 +488,26 @@ a.active {
   }
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-4 {
     margin-left: 10px;
     width: 250px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-4 {
     margin-left: 20px;
     width: 380px;
   }
 }
-/* line 79, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 81, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-4.fill {
   background-color: #ffffff;
   border: 1px solid;
   padding: 10px 10px 100px;
 }
-/* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-5 {
   float: left;
   margin-left: 20px;
@@ -509,7 +515,7 @@ a.active {
   width: 380px;
 }
 @media (max-width: 769px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-5 {
     float: none;
     margin-bottom: 10px;
@@ -518,26 +524,26 @@ a.active {
   }
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-5 {
     margin-left: 10px;
     width: 315px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-5 {
     margin-left: 20px;
     width: 480px;
   }
 }
-/* line 79, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 81, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-5.fill {
   background-color: #ffffff;
   border: 1px solid;
   padding: 10px 10px 100px;
 }
-/* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-6 {
   float: left;
   margin-left: 20px;
@@ -545,7 +551,7 @@ a.active {
   width: 460px;
 }
 @media (max-width: 769px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-6 {
     float: none;
     margin-bottom: 10px;
@@ -554,26 +560,26 @@ a.active {
   }
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-6 {
     margin-left: 10px;
     width: 380px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-6 {
     margin-left: 20px;
     width: 580px;
   }
 }
-/* line 79, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 81, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-6.fill {
   background-color: #ffffff;
   border: 1px solid;
   padding: 10px 10px 100px;
 }
-/* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-7 {
   float: left;
   margin-left: 20px;
@@ -581,7 +587,7 @@ a.active {
   width: 540px;
 }
 @media (max-width: 769px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-7 {
     float: none;
     margin-bottom: 10px;
@@ -590,26 +596,26 @@ a.active {
   }
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-7 {
     margin-left: 10px;
     width: 445px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-7 {
     margin-left: 20px;
     width: 680px;
   }
 }
-/* line 79, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 81, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-7.fill {
   background-color: #ffffff;
   border: 1px solid;
   padding: 10px 10px 100px;
 }
-/* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-8 {
   float: left;
   margin-left: 20px;
@@ -617,7 +623,7 @@ a.active {
   width: 620px;
 }
 @media (max-width: 769px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-8 {
     float: none;
     margin-bottom: 10px;
@@ -626,26 +632,26 @@ a.active {
   }
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-8 {
     margin-left: 10px;
     width: 510px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-8 {
     margin-left: 20px;
     width: 780px;
   }
 }
-/* line 79, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 81, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-8.fill {
   background-color: #ffffff;
   border: 1px solid;
   padding: 10px 10px 100px;
 }
-/* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-9 {
   float: left;
   margin-left: 20px;
@@ -653,7 +659,7 @@ a.active {
   width: 700px;
 }
 @media (max-width: 769px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-9 {
     float: none;
     margin-bottom: 10px;
@@ -662,26 +668,26 @@ a.active {
   }
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-9 {
     margin-left: 10px;
     width: 575px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-9 {
     margin-left: 20px;
     width: 880px;
   }
 }
-/* line 79, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 81, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-9.fill {
   background-color: #ffffff;
   border: 1px solid;
   padding: 10px 10px 100px;
 }
-/* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-10 {
   float: left;
   margin-left: 20px;
@@ -689,7 +695,7 @@ a.active {
   width: 780px;
 }
 @media (max-width: 769px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-10 {
     float: none;
     margin-bottom: 10px;
@@ -698,26 +704,26 @@ a.active {
   }
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-10 {
     margin-left: 10px;
     width: 640px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-10 {
     margin-left: 20px;
     width: 980px;
   }
 }
-/* line 79, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 81, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-10.fill {
   background-color: #ffffff;
   border: 1px solid;
   padding: 10px 10px 100px;
 }
-/* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-11 {
   float: left;
   margin-left: 20px;
@@ -725,7 +731,7 @@ a.active {
   width: 860px;
 }
 @media (max-width: 769px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-11 {
     float: none;
     margin-bottom: 10px;
@@ -734,26 +740,26 @@ a.active {
   }
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-11 {
     margin-left: 10px;
     width: 705px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-11 {
     margin-left: 20px;
     width: 1080px;
   }
 }
-/* line 79, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 81, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-11.fill {
   background-color: #ffffff;
   border: 1px solid;
   padding: 10px 10px 100px;
 }
-/* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-12 {
   float: left;
   margin-left: 20px;
@@ -761,7 +767,7 @@ a.active {
   width: 940px;
 }
 @media (max-width: 769px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-12 {
     float: none;
     margin-bottom: 10px;
@@ -770,263 +776,263 @@ a.active {
   }
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-12 {
     margin-left: 10px;
     width: 770px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 89, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-12 {
     margin-left: 20px;
     width: 1180px;
   }
 }
-/* line 79, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 81, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-12.fill {
   background-color: #ffffff;
   border: 1px solid;
   padding: 10px 10px 100px;
 }
-/* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-off-1 {
   margin-left: 100px;
 }
 @media (max-width: 769px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-1 {
     margin-left: 0;
   }
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-1 {
     margin-left: 75px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-1 {
     margin-left: 120px;
   }
 }
-/* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-off-2 {
   margin-left: 180px;
 }
 @media (max-width: 769px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-2 {
     margin-left: 0;
   }
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-2 {
     margin-left: 140px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-2 {
     margin-left: 220px;
   }
 }
-/* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-off-3 {
   margin-left: 260px;
 }
 @media (max-width: 769px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-3 {
     margin-left: 0;
   }
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-3 {
     margin-left: 205px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-3 {
     margin-left: 320px;
   }
 }
-/* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-off-4 {
   margin-left: 340px;
 }
 @media (max-width: 769px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-4 {
     margin-left: 0;
   }
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-4 {
     margin-left: 270px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-4 {
     margin-left: 420px;
   }
 }
-/* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-off-5 {
   margin-left: 420px;
 }
 @media (max-width: 769px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-5 {
     margin-left: 0;
   }
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-5 {
     margin-left: 335px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-5 {
     margin-left: 520px;
   }
 }
-/* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-off-6 {
   margin-left: 500px;
 }
 @media (max-width: 769px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-6 {
     margin-left: 0;
   }
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-6 {
     margin-left: 400px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-6 {
     margin-left: 620px;
   }
 }
-/* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-off-7 {
   margin-left: 580px;
 }
 @media (max-width: 769px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-7 {
     margin-left: 0;
   }
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-7 {
     margin-left: 465px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-7 {
     margin-left: 720px;
   }
 }
-/* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-off-8 {
   margin-left: 660px;
 }
 @media (max-width: 769px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-8 {
     margin-left: 0;
   }
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-8 {
     margin-left: 530px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-8 {
     margin-left: 820px;
   }
 }
-/* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-off-9 {
   margin-left: 740px;
 }
 @media (max-width: 769px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-9 {
     margin-left: 0;
   }
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-9 {
     margin-left: 595px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-9 {
     margin-left: 920px;
   }
 }
-/* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-off-10 {
   margin-left: 820px;
 }
 @media (max-width: 769px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-10 {
     margin-left: 0;
   }
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-10 {
     margin-left: 660px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-10 {
     margin-left: 1020px;
   }
 }
-/* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+/* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
 .container .gr .gc-off-11 {
   margin-left: 900px;
 }
 @media (max-width: 769px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-11 {
     margin-left: 0;
   }
 }
 @media (min-width: 769px) and (max-width: 979px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-11 {
     margin-left: 725px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 108, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
+  /* line 110, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/_grid.scss */
   .container .gr .gc-off-11 {
     margin-left: 1120px;
   }
