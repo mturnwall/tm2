@@ -84,7 +84,7 @@ $grid-background-column-color: #eeeeee;
     width: getGridColumnWidthById($id);
   }
   &.fill {
-    background-color: #ffffff;
+    background-color: red;
     padding: 10px 10px 100px;
   }
 }
