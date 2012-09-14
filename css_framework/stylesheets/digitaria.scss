@@ -44,15 +44,15 @@ a {
 
 .container {
   @include grid-container;
-  .gr {
-    @include grid-row;
-    @include grid-columns(gc-);
-    @include grid-column-offsets(gc-off-);
-    @include off-screen;
-    .gc-info {
-      position: absolute;
-      right: 5px;
-      top: 5px;
-    }
+}
+.gr {
+  @include grid-row;
+  .gc-info {
+    position: absolute;
+    right: 0;
+    top: 0;
   }
 }
+@include grid-columns(gc-);
+@include grid-column-offsets(gc-off-);
+@include off-screen;
