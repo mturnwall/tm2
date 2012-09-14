@@ -554,8 +554,8 @@ a:hover, a:focus, a.active {
 /* line 50, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria.scss */
 .gr .gc-info {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 5px;
+  top: 5px;
 }
 
 /* line 94, /Users/dpett/Desktop/digitaria/tm2/css_framework/stylesheets/digitaria/layout/_grid.scss */
