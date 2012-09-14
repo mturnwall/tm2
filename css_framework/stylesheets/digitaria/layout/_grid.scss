@@ -3,7 +3,8 @@
 //----------------------------
 @import "compass/layout/grid-background";
 @import "compass/utilities/general/clearfix";
-@import "digitaria/responsive";
+
+@import "digitaria/layout/responsive";
 
 //----------------------------
 // variables
@@ -24,7 +25,7 @@ $grid-background-column-color: #eeeeee;
   $media-current: $media-normal;
   margin: 0 auto;
   width: getGridContainerWidth();
-  @include column-grid-background($grid-total-columns, getGridColumnWidth(), getGridGutterWidth());
+//  @include column-grid-background($grid-total-columns, getGridColumnWidth(), getGridGutterWidth());
   @include pie-clearfix;
   @include media-small {
     background-image: none;
@@ -33,11 +34,11 @@ $grid-background-column-color: #eeeeee;
   }
   @include media-medium {
     width: getGridContainerWidth();
-    @include column-grid-background($grid-total-columns, getGridColumnWidth(), getGridGutterWidth());
+  //  @include column-grid-background($grid-total-columns, getGridColumnWidth(), getGridGutterWidth());
   }
   @include media-large {
     width: getGridContainerWidth();
-    @include column-grid-background($grid-total-columns, getGridColumnWidth(), getGridGutterWidth());
+  //  @include column-grid-background($grid-total-columns, getGridColumnWidth(), getGridGutterWidth());
   }
 }
 
@@ -84,8 +85,8 @@ $grid-background-column-color: #eeeeee;
     width: getGridColumnWidthById($id);
   }
   &.fill {
-    background-color: red;
-    padding: 10px 10px 100px;
+    background-color: lighten($color-default, 65%);
+    padding: 10px;
   }
 }
 @mixin grid-columns($selector:$grid-column-selector) {

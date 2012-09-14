@@ -1,0 +1,54 @@
+//----------------------------
+// imports
+//----------------------------
+@import "digitaria/colors";
+
+//----------------------------
+// variables
+//----------------------------
+$button-border: 1px solid !default;
+$button-border-radius: 4px !default;
+$button-gradient: true !default;
+$button-padding: 5px 10px !default;
+
+//----------------------------
+// mixins
+//----------------------------
+@mixin buttons {
+  a.button, button {
+    @include button;
+    &.primary {
+      @include button(white, $color-primary);
+    }
+    &.secondary {
+      @include button(white, $color-secondary);
+    }
+    &.tertiary {
+      @include button(white, $color-tertiary);
+    }
+  }
+}
+
+@mixin button($text-color:$color-default, $bg-color:lighten($color-default, 60%)) {
+  padding: $button-padding;
+  @include border-radius($button-border-radius);
+  @include color-button($text-color, $bg-color);
+  &:hover, &:focus {
+    @include color-button($text-color, lighten($bg-color, 10%));
+  }
+  &:active {
+    background-color: darken($bg-color, 5%);
+  }
+}
+
+@mixin color-button($text-color, $bg-color) {
+  color: $text-color;
+  border: $button-border;
+  border-color: darken($bg-color, 15%);
+  @if $button-gradient {
+    @include background-image(linear-gradient(lighten($bg-color, 5%), darken($bg-color, 5%)));
+    @include filter-gradient(lighten($bg-color, 5%), darken($bg-color, 5%));
+  } @else {
+    background-color: $bg-color;
+  }
+}

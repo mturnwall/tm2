@@ -1,0 +1,39 @@
+//----------------------------
+// imports
+//----------------------------
+@import "digitaria/colors";
+
+//----------------------------
+// variables
+//----------------------------
+$label-border-radius: 8px !default;
+$label-padding: 4px !default;
+
+//----------------------------
+// mixins
+//----------------------------
+@mixin labels {
+  .label {
+    @include label();
+    &.primary {
+      @include label(white, $color-primary);
+    }
+    &.secondary {
+      @include label(white, $color-secondary);
+    }
+    &.tertiary {
+      @include label(white, $color-tertiary);
+    }
+  }
+}
+
+@mixin label($text-color:$color-default, $bg-color:lighten($color-default, 60%)) {
+  padding: $label-padding;
+  @include border-radius($label-border-radius);
+  @include color-label($text-color, $bg-color);
+}
+
+@mixin color-label($text-color, $bg-color) {
+  background-color: $bg-color;
+  color: $text-color;
+}

@@ -12,7 +12,7 @@ $font-family-serif: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", L
 $font-family-body: $font-family-sans !default;
 $font-family-heading: $font-family-sans !default;
 $font-size-base: 15px !default;
-$total-headings: 6 !default;
+$total-headings: 6;
 
 $ratio: fourth();
 $base-size: $font-size-base;

@@ -3,14 +3,16 @@
 //----------------------------
 @import "digitaria/base";
 
-$color: lighten(blue, 10%);
-
 * {
   @include box-sizing(border-box);
 }
 body {
+  color: $color-default;
   @include type-body;
 }
+
+@include buttons;
+@include labels;
 
 @include type-headings;
 @include responsive-utilities;
@@ -32,10 +34,11 @@ img, object, embed {
 }
 
 a {
-  color: $color;
+  color: $color-primary;
   text-decoration: none;
-  &.active {
-    border-bottom: 5px solid $color;
+  &:hover, &:focus, &.active {
+    border-bottom: 5px solid lighten($color-primary, 10%);
+    color: lighten($color-primary, 10%);
   }
 }
 
@@ -47,13 +50,9 @@ a {
     @include grid-column-offsets(gc-off-);
     @include off-screen;
     .gc-info {
-      background: $color;
-      color: white;
-      padding: 2px 5px;
       position: absolute;
       right: 5px;
       top: 5px;
-      @include border-radius(6px);
     }
   }
 }
